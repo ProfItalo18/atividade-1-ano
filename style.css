@@ -1,0 +1,105 @@
+:root {
+    --zissou-blue: #00334e;
+    --zissou-yellow: #ffc857;
+    --zissou-red: #f25f5c;
+    --zissou-beige: #e6ebe0;
+    --zissou-gray: #c1c7c9;
+    --font-primary: 'Futura', sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: var(--font-primary);
+    background-color: var(--zissou-beige);
+    color: var(--zissou-blue);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: var(--zissou-red);
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: var(--zissou-blue);
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--zissou-gray);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+button {
+    background-color: var(--zissou-yellow);
+    color: var(--zissou-blue);
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--zissou-red);
+    color: white;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: var(--zissou-beige);
+    border: 1px solid var(--zissou-gray);
+}
+
+th, td {
+    border: 1px solid var(--zissou-gray);
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--zissou-yellow);
+    color: var(--zissou-blue);
+}
+
+td {
+    background-color: var(--zissou-beige);
+}
+
+.remover {
+    background-color: var(--zissou-red);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.remover:hover {
+    background-color: #ff3333;
+}
+
+/* Estilo do botão de impressão */
+#imprimirCatalogo {
+    background-color: var(--zissou-blue);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#imprimirCatalogo:hover {
+    background-color: var(--zissou-gray);
+}
